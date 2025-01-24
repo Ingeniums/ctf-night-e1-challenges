@@ -7,7 +7,7 @@ RUN adduser --disabled-password -s /bin/bash ctf
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-COPY ./challenge/flag.txt /flag.txt
+RUN touch /flag.txt
 RUN chmod 666 /flag.txt
 
 RUN mkdir /challenge/

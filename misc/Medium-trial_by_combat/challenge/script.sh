@@ -43,7 +43,7 @@ do
     read -p "$ " command
 
     if [[ "$command" == *cat* ]]; then
-        echo "\x1b[41mBANNED\x1b[0m"
+        echo -e "\x1b[41mBANNED\x1b[0m"
     else
         output=$(sudo -u ctf /bin/bash -c "$command")
 
@@ -71,7 +71,7 @@ do
     read -p "$ " command
 
     if [[ "$command" == *cat* || "$command" == *head* || "$command" == *tail* || "$command" == *tac* || "$command" == *strings* || "$command" == *more* || "$command" == *less* ]]; then
-        echo "\x1b[41mBANNED\x1b[0m"
+        echo -e "\x1b[41mBANNED\x1b[0m"
     else
         output=$(sudo -u ctf /bin/bash -c "$command")
 
