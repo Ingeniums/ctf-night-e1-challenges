@@ -16,7 +16,7 @@ WORKDIR /challenge/
 
 COPY ./challenge/script.sh ./
 
-RUN chmod -R 500 .
+RUN chmod -R 500 ./script.sh
 
 EXPOSE 1337
 
