@@ -1,0 +1,6 @@
+name : "secure error"
+author : "yasser"
+category : "cryptography"
+description : "i was working with multiple messages but they were scrambled out , i added an error so i think that would be enough to secure it right ? "
+flag : "1ng3n1um5{some_text}"
+hint : "assume you know the value of r , how could you solve the challenge?"
