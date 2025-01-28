@@ -14,5 +14,3 @@ for i in range(0,16*4,16):
 with open('output.txt','w') as f : 
     f.write(f'ct : {ct.hex()}')
 
-
-
