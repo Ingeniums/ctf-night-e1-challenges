@@ -1,0 +1,6 @@
+name : "really simple base64"
+author : "yasser"
+category : "cryptography"
+description : "i think we all know how to decode base64 , right ?"
+flag : "inge{some_text}"
+difficulty : "hard"
