@@ -1,1 +1,0 @@
-assume you know the value of r , how could you solve the challenge?
