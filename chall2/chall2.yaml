@@ -1,4 +1,4 @@
-name : "small determinant"
+name : "upper bound of determinant"
 author : "yasser"
 category : "cryptography"
 description : "I was studying matrices and I found that calculating determinants is quite complex, so I thought that using one as a secret would be a good idea"
