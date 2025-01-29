@@ -1,6 +1,6 @@
 FROM python:3-alpine
 
-ENV FLAG=$FLAG
+
 
 RUN apk add --no-cache socat
 
@@ -14,6 +14,8 @@ COPY ./challenge/ .
 
 RUN chmod 400 /challenge/flag.txt && \
     chmod 555 /challenge/script.py
+
+RUN chown -R challengeuser:challengeuser /challenge/
 
 USER challengeuser
 
