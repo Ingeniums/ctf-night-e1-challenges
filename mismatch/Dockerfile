@@ -7,7 +7,7 @@ RUN addgroup player
 RUN adduser -G player -S player
 RUN chown -R player:player /app
 USER player
-EXPOSE 8081
+EXPOSE 8080
 
-CMD [ "php", "-S", "0.0.0.0:8081" ]
+CMD [ "php", "-S", "0.0.0.0:8080" ]
 
