@@ -15,7 +15,7 @@ $persons = [
 $img = "";
 $val = "";
 $show = False;
- if (array_key_exists("input", $_POST) && array_key_exists("options", $_POST)) {
+if (array_key_exists("input", $_POST) && array_key_exists("options", $_POST)) {
     $hidden = "n0th1ng_to_s33_h3r3";
     $val = $_POST["input"];
     if ($_POST["input"] === $hidden) {
@@ -24,6 +24,7 @@ $show = False;
     }
     if (!in_array($_POST["input"], array_values($quotes))) {
         $show = True;
+        $val = "";
     }
 } 
 if (array_key_exists("options", $_POST) && !$show) {
