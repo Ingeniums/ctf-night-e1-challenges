@@ -1,16 +1,16 @@
 FROM python:3-alpine
 
-
-
-RUN apk add --no-cache socat
+RUN apk update && \
+    apk add --no-cache socat
 
 RUN adduser -D -u 1000 challengeuser
 
 COPY entrypoint.sh /entrypoint.sh
-RUN chmod 755 /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 WORKDIR /challenge/
-COPY ./challenge/ .
+
+COPY ./challenge/ ./
 
 RUN chmod 400 /challenge/flag.txt && \
     chmod 555 /challenge/script.py
