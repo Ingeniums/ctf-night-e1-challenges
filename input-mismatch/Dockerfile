@@ -9,5 +9,5 @@ RUN chown -R player:player /app
 USER player
 EXPOSE 8081
 
-CMD [ "php", "-Slocalhost:8081" ]
+CMD [ "php", "-S", "0.0.0.0:8081" ]
 
