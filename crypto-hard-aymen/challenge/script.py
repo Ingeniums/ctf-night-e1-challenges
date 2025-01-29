@@ -56,7 +56,7 @@ def main():
                         print(f'[+] welcome admin user, {usr} 🤖!');
                         authenticated=True;
                     if    (usr != db_user) and (pwd != users[db_user]["pwd"]) :
-                            flag = os.getenv("FLAG")
+                            flag = open("flag.txt",r).read();
                             print(f"[+] what?! this was unexpected. shutting down the system :: {flag} 👽")
                             exit()
                             break
