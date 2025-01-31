@@ -1,0 +1,7 @@
+name: ctf-nights-e1
+
+services:
+  mismatch:
+    build: .
+    ports:
+      - "49152:8080"
