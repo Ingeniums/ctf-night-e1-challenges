@@ -1,6 +1,7 @@
 name: "Cryptic Shockwave"
 author: "Aymen"
-category: crypto
+category: 
+  -crypto
 description: |
   After a devastating breach exposed flaws in our legacy system, we overhauled security with two radical policies:
   1. Strict uniqueness: No duplicate usernames OR passwords allowed!
@@ -14,7 +15,7 @@ type: standard
 image: .
 connection_info: nc hostname 1337
 flag: 
-  - Ingeniums{cr4cking_md5_4nd_my_c0st0m_h45h_sh0ck3d_m3}
+  - 1ng3n1um5{cr4cking_md5_4nd_my_c0st0m_h45h_sh0ck3d_m3}
 tags:
   - crypto
   - hash
