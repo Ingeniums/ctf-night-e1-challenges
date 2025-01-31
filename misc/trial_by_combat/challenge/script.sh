@@ -98,8 +98,12 @@ while $continue
 do
     read -p "$ " inp
 
-    if [[ "$inp" == *\`* || "$inp" == *\$*  || "$inp" == *\<* ]]; then
-        echo "BANNED"
+    if [[ "$inp" == *\`* ]]; then
+        echo 'BANNED CHAR `'
+    elif [[ "$inp" == *\$* ]]; then
+        echo 'BANNED CHAR $'
+    elif [[ "$inp" == *\<* ]]; then
+        echo 'BANNED CHAR <'
     else
         output=$(sudo -u ctf /bin/bash -c "echo $inp")
 
