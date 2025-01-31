@@ -97,14 +97,20 @@ continue=true
 while $continue
 do
     read -p "$ " inp
-
+    ex=true
     if [[ "$inp" == *\`* ]]; then
         echo 'BANNED CHAR `'
-    elif [[ "$inp" == *\$* ]]; then
+        ex=false
+    fi
+    if [[ "$inp" == *\$* ]]; then
         echo 'BANNED CHAR $'
-    elif [[ "$inp" == *\<* ]]; then
+        ex=false
+    fi
+    if [[ "$inp" == *\<* ]]; then
         echo 'BANNED CHAR <'
-    else
+        ex=false
+    fi
+    if [[ "$ex" = true ]]; then
         output=$(sudo -u ctf /bin/bash -c "echo $inp")
 
         echo -e "\x1b[42;1;4;3m$output\x1b[0m"
