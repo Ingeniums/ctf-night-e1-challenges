@@ -91,7 +91,7 @@ echo ===========================
 
 echo $flag_4 > /flag.txt
 
-echo -e "\x1b[37;1mFor your final level, there is no flag. You are now stuck in this empty cave with only your \x1b[37;43;1mecho\x1b[0m\x1b[37;1m to keep you company\x1b[0m"
+echo -e "\x1b[37;1mFor your final level, there is no flag. You are now stuck in this empty cave with only your echo to keep you company\x1b[0m"
 
 continue=true
 while $continue
