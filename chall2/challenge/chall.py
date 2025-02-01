@@ -20,5 +20,5 @@ with open('secret.txt','w') as f :
     f.write(f'A: {A}')
 
 
-with open('output.txt','w') as f : 
+with open('challenge/output.txt','w') as f : 
     f.write(f'ct: {ct.hex()}')
