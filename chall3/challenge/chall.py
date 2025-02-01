@@ -11,6 +11,6 @@ for i in range(0,16*4,16):
     ct += cipher.encrypt(flag[i:i+16])
     key = ct[i:i+16]
 
-with open('output.txt','w') as f : 
+with open('challenge/output.txt','w') as f : 
     f.write(f'ct : {ct.hex()}')
 

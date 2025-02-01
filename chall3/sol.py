@@ -1,6 +1,6 @@
 from Crypto.Cipher import AES
 
-with open('output.txt','r') as f :
+with open('challenge/output.txt','r') as f :
     ct = bytes.fromhex(f.readline().split(': ')[1])
 pt = b''
 for i in range(0,len(ct)-16,16) : 
