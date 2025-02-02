@@ -11,14 +11,11 @@ hints:
   - "Developers often store their code on popular  version control platforms. "
   - "there is pull requests , branches ..... what else?"
   - "Found some weird looking text? It's Base64 encoded! Try decoding it to reveal the flag."
-
-connection_info: nc hostname 1337
 flag:
   - 1ng3n1um5{comm1tt1ng_3nc0d3d_p@ssw0rds_1s_n0t_th3_sm@rt3st_m0v3}
-difficulty: 
-  - Easy
 tags:
   - osint
   - Human Intelligence
+  - easy
 state: visible
 version: "0.1"
