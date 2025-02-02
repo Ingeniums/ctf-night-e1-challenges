@@ -1,7 +1,6 @@
 name: "Cryptic Shockwave"
 author: "Aymen"
-category: 
-  -crypto
+category: crypto
 description: |
   After a devastating breach exposed flaws in our legacy system, we overhauled security with two radical policies:
   1. Strict uniqueness: No duplicate usernames OR passwords allowed!
