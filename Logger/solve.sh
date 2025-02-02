@@ -1,1 +1,0 @@
-grep -o 'q=[^ ]*' Challenge/chall | cut -d= -f2 | tr -d "\n" | xxd -r -p
