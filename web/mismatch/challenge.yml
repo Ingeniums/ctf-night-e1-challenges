@@ -8,7 +8,7 @@ category: "web exploitation"
 description: "somebody once said \"The greatest mismatch in life is the distance between what we expect and what we accept.\" but sometimes mismatch is the answer."
 attribution: Written by [youness](https://github.com/merzouka)
 value: 100
-type: medium
+type: standard
 
 # The extra field provides additional fields for data during the install/sync commands/
 # Fields in extra can be used to supply additional information for other challenge types
@@ -56,8 +56,5 @@ tags:
 # Can be removed if unused
 # Accepts dictionaries or strings
 hints:
-    - {
-        content: "not everthing in html is visible",
-        cost: 10
-    }
+    - not everthing in html is visible
     - the name is an indicator
