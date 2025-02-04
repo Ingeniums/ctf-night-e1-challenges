@@ -1,3 +1,4 @@
+name: ctf-nights-e1
 services:
   trial_by_combat:
     build: .

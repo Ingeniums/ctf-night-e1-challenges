@@ -8,18 +8,15 @@ description: |
 
   But whispers suggest remnants of old vulnerabilities linger... Can you shock the system back into chaos?
 
-
 value: 500
 type: standard
-image: .
-connection_info: nc hostname 1337
+connection_info: nc {{hostname}} 1337
 flag: 
   - 1ng3n1um5{cr4cking_md5_4nd_my_c0st0m_h45h_sh0ck3d_m3}
 tags:
   - crypto
   - hash
-difficulty: 
-  - Hard
+  - hard
 
 state: visible
 version: "0.1"

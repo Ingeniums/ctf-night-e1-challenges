@@ -1,5 +1,4 @@
 name: ctf-nights-e1
-
 services:
   mismatch:
     build: .

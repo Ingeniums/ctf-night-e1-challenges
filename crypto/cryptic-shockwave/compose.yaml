@@ -1,0 +1,9 @@
+name: ctf-nights-e1
+services:
+  cryptic-shockwave:
+    build: .
+    ports:
+      - "{{port}}:1337"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
