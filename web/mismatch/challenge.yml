@@ -34,7 +34,7 @@ connection_info: http://localhost:49152
 # Accepts strings or dictionaries of CTFd API data
 flags:
     # A static case sensitive flag
-    - ingeniums{st3n0_w3b_m1sm4tch}
+    - 1ng3n1um5{st3n0_w3b_m1sm4tch}
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins

@@ -4,4 +4,4 @@ services:
   mismatch:
     build: .
     ports:
-      - "49152:8080"
+      - "{{port}}:8080"
