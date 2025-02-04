@@ -8,7 +8,7 @@ flags:
 tags:
   - osint
   - easy 
-
-Hint: "Have you heard about decentralized social media?"
-Hint: "sherlock"
+hints:
+  - "Have you heard about decentralized social media?"
+  - "sherlock"
   

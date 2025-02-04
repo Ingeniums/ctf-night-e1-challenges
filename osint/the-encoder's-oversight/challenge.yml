@@ -1,6 +1,6 @@
 name: "The Encoder's Oversight"
 author: "Aymen"
-category: "OSINT"
+category: "osint"
 description: |
               Jordan Powell, a developer who once confused encoding with encryption, left behind a hidden secret in his early Public projects work.
               Your task is to investigate his foundational projects and uncover a piece of sensitive data he naively "secured" using the wrong method.
