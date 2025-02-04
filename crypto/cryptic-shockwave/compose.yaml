@@ -1,7 +1,7 @@
 name: ctf-nights-e1
 services:
   cryptic-shockwave:
-    build: .
+    build: {{Dockerfile}}
     ports:
       - "{{port}}:1337"
     restart: unless-stopped

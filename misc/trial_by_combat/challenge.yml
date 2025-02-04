@@ -4,7 +4,6 @@ category: misc
 description: "The police are sick of chasing you around so they offer you a chance at freedom. Are you up for a challenge?"
 value: 500
 type: standard
-image: .
 connection_info: nc {{hostname}} 1337
 flags: 
   - ingeniums{M1gh7_M4k3s_R1Ght}
