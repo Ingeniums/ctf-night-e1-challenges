@@ -1,7 +1,7 @@
 FROM python:3-alpine
 
 RUN apk update && \
-    apk add --no-cache socat
+    apk add socat
 
 RUN adduser -D -u 1000 challengeuser
 

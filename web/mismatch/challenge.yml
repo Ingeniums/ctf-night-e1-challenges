@@ -27,7 +27,7 @@ protocol: http
 # Optional settings
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: http://localhost:49152
+connection_info: http://{{hostname}}:{{port}}
 
 # Flags specify answers that your challenge use. You should generally provide at least one.
 # Can be removed if unused
