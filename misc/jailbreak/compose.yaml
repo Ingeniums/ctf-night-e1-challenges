@@ -1,0 +1,5 @@
+services:
+  jailbreak:
+    build: .
+    ports:
+      - "{{port}}:1337"

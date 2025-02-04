@@ -4,13 +4,12 @@ category: misc
 description: "Looks like your dark past has caught up to you, hacker. The police have you locked up. Can you escape?"
 value: 500
 type: standard
-image: .
-connection_info: nc hostname 1337
+connection_info: nc {{hostname}} 1337
 flags: 
   - ingeniums{$t0N3_W4lls_D0_No7_4_Pr1$0N_M4k3}
 tags:
   - Jail
   - Python
-  - Easy
+  - easy
 state: visible
 version: "0.1"

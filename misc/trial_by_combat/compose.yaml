@@ -1,0 +1,5 @@
+services:
+  trial_by_combat:
+    build: .
+    ports:
+      - "{{port}}:1337"

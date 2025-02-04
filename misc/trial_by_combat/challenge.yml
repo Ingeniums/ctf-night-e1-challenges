@@ -5,12 +5,12 @@ description: "The police are sick of chasing you around so they offer you a chan
 value: 500
 type: standard
 image: .
-connection_info: nc hostname 1337
+connection_info: nc {{hostname}} 1337
 flags: 
   - ingeniums{M1gh7_M4k3s_R1Ght}
 tags:
   - Jail
   - Bash
-  - Medium
+  - medium
 state: visible
 version: "0.1"
