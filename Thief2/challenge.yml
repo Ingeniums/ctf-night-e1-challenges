@@ -1,0 +1,11 @@
+name: "Thief (2)"
+author: "{sirmoncef}"
+category: osint 
+description: "The thief is planning to meet a suspicious person in a Southeast Asian country and has left a clue about the meeting location. The password is the coordinates of the meeting place (e.g., if the coordinates are 12.965789, 123.567890, the password will be 12.965,123.567). Continue from where you left off last time."
+value: 500
+flags: 
+  - 1ng3n1um5{y0u_f0und_us_but_1ts_not_the_End_s33_y0u_1n_ing3neer}  
+tags:
+  - osint
+  - Medium
+  
