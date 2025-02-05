@@ -3,10 +3,10 @@ echo -e "\x1b[34;1;4mOfficer:\x1b[0m You've proven to be quite a nuisance, hacke
 echo -e "\x1b[34;1;4mOfficer:\x1b[0m Prove your skill by battling increasingly strict restrictions while reading a part of the flag on /flag.txt each time."
 
 
-flag_1='1ng3n1um5{Br3ak_'
-flag_2='L0ck$_'
-flag_3='N0t_'
-flag_4='l4wS}'
+flag_1='1ng3n1um5{'
+flag_2='M1gh7_'
+flag_3='M4k3s_'
+flag_4='R1Ght}'
 
 echo ===========================
 echo -e "\x1b[46;1;4mLevel 1\x1b[0m"
