@@ -7,6 +7,7 @@ value: {{easy}}
 flag: "1ng3n1um5{using_preinfo_as_key_can_be_dengerous}"
 files:
   - files/output.txt
+  - files/chall.py
 tags:
   - crypto
   - easy

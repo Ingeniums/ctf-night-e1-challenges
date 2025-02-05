@@ -12,4 +12,4 @@ hints:
   - "assume you know the value of r , how could you solve the challenge?"
 files:
   - files/output.txt
-  # - files/secret.txt
+  - files/chall.py
