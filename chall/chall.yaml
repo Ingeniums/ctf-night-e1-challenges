@@ -1,7 +1,0 @@
-name : "really simple base64"
-author : "yasser"
-category : "forensics"
-description : "i think we all know how to decode base64 , right ?"
-flag : "1ng3n1um5{b64_is_amazing}"
-difficulty : "hard"
-hint : "think about how can dGh= and dGg= decode to the same result"  
