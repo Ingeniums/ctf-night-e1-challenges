@@ -2,9 +2,9 @@ name: "Pizza Steve"
 author: "{sirmoncef}"
 category: reverse
 type: standard
-description: Its Pizza Steve time, baby! Lets get it!
+description: Its Pizza Steve time, baby! Lets get it! <img src="files/steve.png" alt="Pizza Steeeeeve!!!">
 value: {{easy}}
-flag: 
+flags: 
   - 1ng3n1um5{y3s_1t5_M3_p1zza_st33v3}
 tags:
   - reverse

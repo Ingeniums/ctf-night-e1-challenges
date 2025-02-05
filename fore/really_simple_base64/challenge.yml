@@ -2,7 +2,8 @@ name : "really simple base64"
 author : "yasser"
 category : forensics
 description : "i think we all know how to decode base64, right ?"
-flag : "1ng3n1um5{b64_is_amazing}"
+flags:
+  - 1ng3n1um5{b64_is_amazing}
 value: {{hard}}
 tags: 
   - hard

@@ -2,7 +2,8 @@ name : "upper bound of determinant"
 author : "yasser"
 category : crypto
 description : "I was studying matrices and I found that calculating determinants is quite complex, so I thought that using one as a secret would be a good idea"
-flag: "1ng3n1um5{d3t3rm1nants_as_s3cr3ts_1s_not_s3cur3}"
+flags:
+  - 1ng3n1um5{d3t3rm1nants_as_s3cr3ts_1s_not_s3cur3}
 value: {{easy}}
 type: standard
 hints:

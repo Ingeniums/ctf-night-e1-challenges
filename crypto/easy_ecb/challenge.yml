@@ -4,7 +4,8 @@ category : crypto
 description : "i found that cbc is secure because of the chaining stuff it does so i wanted to make ecb simillar to it"
 type: standard
 value: {{easy}}
-flag: "1ng3n1um5{using_preinfo_as_key_can_be_dengerous}"
+flags:
+  - 1ng3n1um5{using_preinfo_as_key_can_be_dengerous}
 files:
   - files/output.txt
   - files/chall.py
