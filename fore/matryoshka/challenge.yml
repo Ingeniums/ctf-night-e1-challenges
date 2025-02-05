@@ -3,5 +3,7 @@ author : "Th3Kr1M0"
 category : "forensics"
 description : "The Matryoshka Doll is a very famous toy in Russia."
 flag : "1ng3n1um5{4r3_u_p4t13nt_3nough_?}"
-difficulty : "easy"
-hint : "headers :)"  
+tags:
+  - easy
+hint:
+  - "headers :)"  
