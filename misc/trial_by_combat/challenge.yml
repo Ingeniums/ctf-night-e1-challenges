@@ -2,7 +2,7 @@ name: "Trial By Combat"
 author: "1nitramfs"
 category: misc
 description: "The police are sick of chasing you around so they offer you a chance at freedom. Are you up for a challenge?"
-value: 500
+value: {{medium}}
 type: standard
 connection_info: nc {{hostname}} {{port}}
 flags: 

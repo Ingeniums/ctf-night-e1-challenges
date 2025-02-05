@@ -5,7 +5,7 @@ description: |
               Jordan Powell, a developer who once confused encoding with encryption, left behind a hidden secret in his early Public projects work.
               Your task is to investigate his foundational projects and uncover a piece of sensitive data he naively "secured" using the wrong method.
               The answer lies buried in the historical revisions of a repository tied to a programming rite of passage—a project every developer starts 
-value: 500
+value: {{easy}}
 type: standard
 hints:
   - "Developers often store their code on popular  version control platforms. "

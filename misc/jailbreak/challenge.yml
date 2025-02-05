@@ -2,7 +2,7 @@ name: "Jailbreak"
 author: "1nitramfs"
 category: misc
 description: "Looks like your dark past has caught up to you, hacker. The police have you locked up. Can you escape?"
-value: 500
+value: {{easy}}
 type: standard
 connection_info: nc {{hostname}} {{port}}
 flags: 
