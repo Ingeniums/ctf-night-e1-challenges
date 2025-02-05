@@ -1,0 +1,14 @@
+name: "Thief (1)"
+author: "{sirmoncef}"
+category: osint 
+description: "We have received information about an art thief planning to steal a valuable painting. Recently, traces of his activity have been discovered on social media platforms under the name Nathan Rennerwood. Can you track him and uncover what he plans?"
+value: {{easy}}
+flags: 
+  - 1ng3n1um5{h1dd3n__in_d3c3ntr4l1z3d__s0c14l_m3d14}  
+tags:
+  - osint
+  - easy 
+hints:
+  - "Have you heard about decentralized social media?"
+  - "sherlock"
+  

@@ -1,0 +1,10 @@
+name: "Lost in Translation"
+author: "Th3Kr1M0"
+category: "reverse"
+description: "I lost my flag somewhere in this binary... Can you help me recover it?"
+flag: "1ng3n1um5{1_h4v3_n0_1d34_wh4t_1m_d0in9}"
+value: {{easy}}
+tags: 
+  - easy
+files:
+  - files/lost_in_translation

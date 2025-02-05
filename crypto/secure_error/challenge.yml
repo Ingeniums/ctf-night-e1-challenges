@@ -1,0 +1,15 @@
+name : "secure error"
+author : "yasser"
+category : crypto
+description : "i was working with multiple messages but they were scrambled out , i added an error so i think that would be enough to secure it right ? "
+flag : "1ng3n1um5{w0w_3v3n_th1t_th3r3_w3r3_tw0_unkn0wn5_y0u_f0und_x}"
+value: {{easy}}
+type: standard
+tags:
+  - crypto
+  - easy
+hints:
+  - "assume you know the value of r , how could you solve the challenge?"
+files:
+  - files/output.txt
+  # - files/secret.txt

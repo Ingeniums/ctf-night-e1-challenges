@@ -1,0 +1,6 @@
+name: ctf-nights-e1
+services:
+  jailbreak:
+    build: {{Dockerfile}}
+    ports:
+      - "{{port}}:1337"
