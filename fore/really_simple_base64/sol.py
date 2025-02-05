@@ -4,7 +4,7 @@ def base64_to_bits(b64_string):
     bits = ''.join(format(BASE64_CHARS.index(char), '06b') for char in b64_string if char in BASE64_CHARS)
     return bits
 
-with open('challenge/output.txt', 'r') as f:
+with open('files/output.txt', 'r') as f:
     base64_strings = f.readlines()
 
 total_unhidden = ''
