@@ -12,3 +12,4 @@ hints:
   - "think about how can dGh= and dGg= decode to the same result"  
 files:
   - files/output.txt
+state: visible

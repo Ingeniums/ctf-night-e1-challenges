@@ -13,3 +13,4 @@ hints:
   - "headers :)"  
 files:
   - files/flag.zip
+state: visible
