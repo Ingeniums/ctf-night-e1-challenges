@@ -4,6 +4,9 @@ category: web
 description: I noticed a detinct lack of duck shops around this area, so I made my own...
 value: 200
 flags:
-  - 1ng3n1um5{qu4ck_qu4ck_1m_4_p4th_tr4vers4l_duck}
+    - 1ng3n1um5{qu4ck_qu4ck_1m_4_p4th_tr4vers4l_duck}
+tags:
+    - web
+    - easy
 type: standard
 image: .
