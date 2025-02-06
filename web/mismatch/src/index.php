@@ -81,9 +81,9 @@ if (array_key_exists("options", $_POST) && !$show) {
 
                     <?php 
                     if ($val === "") {
-                    echo "<input class='input' type='text' name='input' id='inputField' placeholder='Enter text here' value='$val' disabled>";
+                    echo "<input class='input' type='text' name='input' id='inputField' placeholder='Text appears here' value='$val' disabled>";
                     } else {
-                    echo "<input class='input' type='text' name='input' id='inputField' placeholder='Enter text here' value='$val'>";
+                    echo "<input class='input' type='text' name='input' id='inputField' placeholder='Text appears here' value='$val'>";
                     }
                     ?>
                 </div>

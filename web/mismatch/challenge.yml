@@ -42,14 +42,14 @@ flags:
 topics:
     - web exploitation
     - hidden
-    - stenography
+    - steganography
 
 # Tags are used to provide additional public tagging to a challenge
 # Can be removed if unused
 # Accepts strings
 tags:
     - web
-    - steno
+    - steganography
     - easy
 
 # Hints are used to give players a way to buy or have suggestions. They are not

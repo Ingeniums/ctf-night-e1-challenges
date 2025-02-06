@@ -11,5 +11,7 @@ tags:
   - Jail
   - Python
   - easy
+files:
+  - files/script.py
 state: visible
 version: "0.1"
