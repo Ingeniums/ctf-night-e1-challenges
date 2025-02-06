@@ -8,6 +8,7 @@ connection_info: nc {{hostname}} {{port}}
 flags: 
   - 1ng3n1um5{M1gh7_M4k3s_R1Ght}
 tags:
+  - 1nitramfs
   - Jail
   - Bash
   - medium

@@ -1,12 +1,13 @@
 name: "Pizza Steve"
-author: "{sirmoncef}"
+attribution: "{sirmoncef}"
 category: reverse
 type: standard
-description: Its Pizza Steve time, baby! Lets get it! <img src="files/steve.png" alt="Pizza Steeeeeve!!!">
+description: Its Pizza Steve time, baby! Lets get it! <img src="https://pub-4d9fc15a2fe24bde8b87c89c20fbfe9f.r2.dev/steve.png" alt="Pizza Steeeeeve!!!">
 value: {{easy}}
 flags: 
   - 1ng3n1um5{y3s_1t5_M3_p1zza_st33v3}
 tags:
+  - {sirmoncef}
   - reverse
   - easy
 files:

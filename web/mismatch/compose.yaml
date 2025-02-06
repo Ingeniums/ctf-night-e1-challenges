@@ -1,6 +1,6 @@
 name: ctf-nights-e1
 services:
   mismatch:
-    build: {{Dockerfile}}
+    build: .
     ports:
-      - "{{port}}:8080"
+      - "8086:8080"

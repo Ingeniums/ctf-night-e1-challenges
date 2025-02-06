@@ -9,6 +9,7 @@ type: standard
 hints:
   - "https://en.wikipedia.org/wiki/Hadamard%27s_maximal_determinant_problem"
 tags:
+  - yasser
   - crypto
   - easy
 files:
