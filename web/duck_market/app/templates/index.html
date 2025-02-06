@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Supermarket</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffeb3b;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .duck-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .duck-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .duck-card:hover {
+            transform: translateY(-5px);
+        }
+        .duck-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .view-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .view-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🦆 Duck Supermarket 🦆</h1>
+        <p>Find your perfect duck companion!</p>
+    </div>
+    
+    <div class="duck-container">
+        {% for duck in ducks.values() %}
+        <div class="duck-card">
+            <img src="{{ url_for('static', filename='images/' + duck.image) }}" 
+                 alt="{{ duck.name }}" 
+                 class="duck-image">
+            <h2>{{ duck.name }}</h2>
+            <p>{{ duck.description }}</p>
+            <a href="/duck/{{ duck.id }}" class="view-button">View Duck</a>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
