@@ -1,6 +1,6 @@
 name: ctf-nights-e1
 services:
-  mismatch:
+  duck_market:
     build: {{Dockerfile}}
     ports:
       - "{{port}}:8080"
