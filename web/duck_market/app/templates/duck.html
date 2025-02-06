@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ duck.name }} - Details</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        .detail-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .duck-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .price-button {
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 20px 0;
+        }
+        .price-button:hover {
+            background-color: #f57c00;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #2196F3;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .price-display {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-container">
+        <h1>{{ duck.name }}</h1>
+        <img src="{{ url_for('static', filename='images/' + duck.image) }}" 
+             alt="{{ duck.name }}" 
+             class="duck-image">
+        <p>{{ duck.description }}</p>
+        <button onclick="getPrice('{{ duck.id }}')" class="price-button">Show Price</button>
+        <div id="price-display" class="price-display"></div>
+        <a href="/" class="back-link">← Back to Duck Selection</a>
+    </div>
+
+    <script>
+        function getPrice(duckId) {
+            fetch(`/price?duck=${duckId}.txt`)
+                .then(response => {
+                    if (!response.ok) throw new Error('Price not found');
+                    return response.text();
+                })
+                .then(price => {
+                    document.getElementById('price-display').textContent = `Price: ${price}`;
+                    document.getElementById('price-display').style.display = 'block';
+                })
+                .catch(error => {
+                    alert('Error fetching price!');
+                });
+        }
+    </script>
+</body>
+</html>
