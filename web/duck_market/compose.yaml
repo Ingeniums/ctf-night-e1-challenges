@@ -3,4 +3,4 @@ services:
   duck_market:
     build: {{Dockerfile}}
     ports:
-      - "{{port}}:8080"
+      - "{{port}}:5000"
